@@ -11,7 +11,6 @@ int binarySearch(int arr[], int n, int key) {
 
         else if (arr[mid] < key)
             low = mid + 1;  // Search right half
-
         else
             high = mid - 1; // Search left half
     }
